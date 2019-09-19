@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, Route, Link } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 
 import './App.css';
 
@@ -7,13 +7,6 @@ import HomePage from './pages/homepage/homepage.component';
 import ShopPage from './pages/shop/shop.component';
 import Header from "./components/header/header.component";
 
-
-
-const HatsPage = () => (
-    <div>
-        <h1>Hat Page</h1>
-    </div>
-)
 
 function App() {
   return (
