@@ -7,7 +7,7 @@ import HomePage from './pages/homepage/homepage.component';
 import ContactPage from './pages/contact/contact.component.jsx';
 import ShopPage from './pages/shop/shop.component';
 import Header from "./components/header/header.component";
-import SingInAndSignUpPAge from "./pages/sing-in-and-sign-up/sing-in-and-sign-up.component";
+import SingInAndSignUpPAge from "./pages/sign-in-and-sign-up/sign-in-and-sign-up.component";
 
 
 function App() {
