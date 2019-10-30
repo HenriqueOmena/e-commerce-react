@@ -12,10 +12,10 @@ class SignIn extends Component {
     constructor(props) {
         super(props)
 
-        this.state = {
-            email: '',
-            password: ''
-        }
+        // this.state = {
+        //     email: '',
+        //     password: ''
+        // }
     }
 
     handleSubmit = async event => {

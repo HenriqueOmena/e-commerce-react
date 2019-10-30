@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import { connect } from 'react-redux';
 
 import { auth }from '../../firebase/firebase.utils.js'
 import { ReactComponent as Logo} from '../../assets/crown.svg'
@@ -18,7 +19,12 @@ const Header = ({ currentUser }) => (
             {
                 currentUser ? (
                     <span>
-                        <a className="option" onClick={ () => auth.signOut()}> Sign Out </a>
+                        <button
+                            className="option"
+                            onClick={ () => auth.signOut()}
+                        >
+                            Sign Out
+                        </button>
                         <span className="logged-as"> <strong>Logged:</strong> { currentUser.displayName }</span>
                     </span>
                 ) :(
@@ -31,5 +37,8 @@ const Header = ({ currentUser }) => (
     </div>
 )
 
+const mapStateToProps = state => ({
+    currentUser: state.user.currentUser
+})
 
-export default Header
+export default connect(mapStateToProps)(Header)
