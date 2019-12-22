@@ -4,6 +4,7 @@ import { connect } from "react-redux";
 
 import "./App.css";
 
+import RequestData from "./testHooks/requestData.component";
 import HomePage from "./pages/homepage/homepage.component";
 import ContactPage from "./pages/contact/contact.component.jsx";
 import ShopPage from "./pages/shop/shop.component";
@@ -41,6 +42,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
+        <RequestData />
         <Header />
         <Switch>
           <Route exact path="/" component={HomePage} />
