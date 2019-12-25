@@ -8,7 +8,7 @@ function useRequest(url) {
       const response = await fetch(url);
       const resJson = await response.json();
       setData(resJson[0]);
-      console.log("foi pedido useRequest?", resJson);
+      //   console.log("foi pedido useRequest?", resJson);
     };
     fetchFunc();
   }, []);
