@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 
 import { auth } from "../../firebase/firebase.utils.js";
-import { ReactComponent as Logo } from "../../assets/crown.svg";
+// import { ReactComponent as Logo } from "../../assets/logo.png";
+import Logo from "../../assets/logo.png";
 import CartIcon from "../cart-icon/cart-icon.component";
 import CartDropDown from "../cart-dropdown/cart-dropdown.component";
 import "./header.styles.scss";
@@ -11,7 +12,7 @@ import "./header.styles.scss";
 const Header = ({ currentUser, hidden }) => (
   <div className="header">
     <Link className="logo-container" to="/">
-      <Logo className="logo" />
+      <img src={Logo} />
     </Link>
     <div className="options">
       <Link className="option" to="/shop">
@@ -23,12 +24,12 @@ const Header = ({ currentUser, hidden }) => (
 
       {currentUser ? (
         <span>
-          <button className="option" onClick={() => auth.signOut()}>
+          <span className="option" onClick={() => auth.signOut()}>
             Sign Out
-          </button>
-          <span className="logged-as">
-            <strong>Logged:</strong> {currentUser.displayName}
           </span>
+          {/* <span className="logged-as">
+            <strong>Logged:</strong> {currentUser.displayName}
+          </span> */}
         </span>
       ) : (
         <Link className="option" to="/signin">

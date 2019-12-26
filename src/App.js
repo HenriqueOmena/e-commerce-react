@@ -42,7 +42,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <RequestData />
+        {/* <RequestData /> */}
         <Header />
         <Switch>
           <Route exact path="/" component={HomePage} />
