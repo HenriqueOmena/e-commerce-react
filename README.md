@@ -22,7 +22,7 @@ A shop with some side effect when you like to add a product to a cart.
 
 ### :open_file_folder: Image:
 
-<img src="https://github.com/HenriqueOmena/e-commerce-react/blob/master/src/assets/apresentation-project.png" height="400">
+<img src="./src/assets/apresentation-project.png" height="400">
 
 ## :memo: License
 
