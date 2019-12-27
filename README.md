@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Henrique Omena" src="./src/assets/imgs/logo-omena.png" width="100px" />
+    <img alt="Henrique Omena" src="./src/assets/logo-omena.png" width="100px" />
 </h1>
 
 <h3 align="center">
