@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-import useRequest from "../requests/useRequest.component";
+import useRequest from "../../requests/useRequest.component";
 
 const RequestDataHook = () => {
   const idUser = 1;
