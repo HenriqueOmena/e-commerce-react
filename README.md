@@ -1,6 +1,6 @@
-<h1 align="center">
+<!-- <h1 align="center">
     <img alt="Henrique Omena" src="./src/assets/logo-omena.png" width="100px" />
-</h1>
+</h1> -->
 
 <h3 align="center">
   Shop Multi Porpouse With Lib Redux
