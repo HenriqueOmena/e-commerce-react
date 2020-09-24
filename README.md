@@ -6,6 +6,8 @@
   Shop Multi Porpouse With Lib Redux
 </h3>
 
+<img src="./src/assets/apresentation-project.png" height="400">
+
 <blockquote align="center">“Dreams don't work unless you do”!</blockquote>
 
 ## :trophy: About
@@ -20,9 +22,6 @@ Used to style code, ESLint, Prettier, EditorConfig
 
 A shop with some side effect when you like to add a product to a cart.
 
-### :open_file_folder: Image:
-
-<img src="./src/assets/apresentation-project.png" height="400">
 
 ## :memo: License
 
