@@ -6,8 +6,9 @@
   Shop Multi Porpouse With Lib Redux
 </h3>
 
-<img src="./src/assets/apresentation-project.png" height="400">
-
+<p align="center">
+    <img src="./src/assets/apresentation-project.png" height="400">
+</p>
 <blockquote align="center">“Dreams don't work unless you do”!</blockquote>
 
 ## :trophy: About
